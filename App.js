@@ -104,7 +104,7 @@ function App() {
   };
 
   const addWorldClock = () => {
-    const city = prompt('Enter city name:');
+    const city = prompt('Enter your city name:');
     if (city) {
       setWorldClocks((prevClocks) => [...prevClocks, { city }]);
     }
